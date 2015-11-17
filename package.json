@@ -1,10 +1,10 @@
 {
-  "name": "gomoob-php-pushwoosh",
+  "name": "diegocasetti-php-pushwoosh",
   "version": "1.1.0",
   "license": "MIT",
   "repository" : {
     "type" : "git",
-    "url" : "git://github.com/gomoob/php-pushwoosh.git"  
+    "url" : "git://github.com/diegocasetti/php-pushwoosh.git"  
   },
   "devDependencies": {
     "grunt": "~0.4",

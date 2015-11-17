@@ -30,6 +30,7 @@ class Android
     private $icon;
     private $rootParams;
     private $sound;
+    private $vibration;
 
     /**
      * Utility function used to create a new Android instance.
@@ -91,6 +92,11 @@ class Android
 
     }
 
+    public function getVibration()
+    {
+        return $this->vibration;
+    }
+
     public function setBanner($banner)
     {
         $this->banner = $banner;
@@ -148,6 +154,13 @@ class Android
         return $this;
     }
 
+    public function setVibration($vibration)
+    {
+        $this->vibration = $vibration;
+
+        return $this;
+    }
+
     /**
      * Creates a JSON representation of this request.
      *
@@ -164,6 +177,7 @@ class Android
         isset($this->icon) ? $json['android_icon'] = $this->icon : false;
         isset($this->rootParams) ? $json['android_root_params'] = $this->rootParams : false;
         isset($this->sound) ? $json['android_sound'] = $this->sound : false;
+        isset($this->vibration) ? $json['android_vibration'] = $this->vibration : false;
 
         return $json;
 
