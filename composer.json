@@ -1,34 +1,31 @@
 {
-	"name" : "gomoob/php-pushwoosh",
+	"name" : "fireless/php-pushwoosh",
 	"description" : "A PHP Library to easily work with the Pushwoosh REST Web Services.",
 	"version" : "1.1.0",
 	"license" : "MIT",
 	"type" : "library",
 	"keywords" : [
-		"gomoob",
+		"fireless",
 		"push",
 		"pushwoosh"
 	],
 	"authors" : [{
-			"name" : "GoMoob",
-			"email" : "contact@gomoob.com",
-			"homepage" : "http://www.gomoob.com"
+			"name" : "Fireless",
+			"email" : "contact@gfireless.cl",
+			"homepage" : "http://www.fireless.cl"
 		}, {
-			"name" : "Baptiste Gaillard",
-			"email" : "baptiste.gaillard@gomoob.com"
-		}, {
-			"name" : "Simon Baudry",
-			"email" : "simon.baudry@gomoob.com"
+			"name" : "Diego Casetti",
+			"email" : "diego@fireless.cl"
 		}
 	],
 	"autoload" : {
 		"psr-4" : {
-			"Gomoob\\" : "src/main/php/Gomoob"
+			"Fireless\\" : "src/main/php/Fireless"
 		}
 	},
 	"autoload-dev" : {
 		"psr-4" : {
-			"Gomoob\\" : "src/test/php/Gomoob"
+			"Fireless\\" : "src/test/php/Fireless"
 		}
 	},
 	"require" : {
